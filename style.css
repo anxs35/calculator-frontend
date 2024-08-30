@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(193, 201, 187);
+    font-family: 'New Amsterdam';
+}
+
+h1{
+    margin-left: 575px;
+    font-size: 50px;
+    font-family: 'New Amsterdam';
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(193, 201, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'New Amsterdam';
+}
+
+.calculator{
+    background: rgb(29, 26, 28);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'New Amsterdam';
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    font-family: 'New Amsterdam';
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    font-family: 'New Amsterdam';
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    font-family: 'New Amsterdam';
+}
+
+form input#equal{
+    width: 145px;
+    background-color: orangered;
+    font-family: 'New Amsterdam';
+}
+
+form input.operator{
+    color: whitesmoke;
+    background: rgb(179, 176, 176);
+    font-family: 'New Amsterdam';
+    font-size:35px;
+}
